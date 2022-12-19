@@ -94,6 +94,7 @@ class PriorityQueue(IterableMixin):
     def dequeue(self):
         return heappop(self._elements)[-1]
 
+# Handling Priority Queues
 from collections import deque
 from dataclasses import dataclass
 from heapq import heapify, heappop, heappush
